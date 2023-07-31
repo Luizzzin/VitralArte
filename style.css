@@ -1,54 +1,95 @@
 /* reset css */
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-img{
+
+img {
     width: 100%;
     height: auto;
 }
+
 @font-face {
-    font-family: 'opensans regular' ;
+    font-family: 'opensans regular';
     src: url(Font/OpenSans-Regular.ttf);
 }
+
 @font-face {
-    font-family: 'poppins bold' ;
+    font-family: 'poppins bold';
     src: url(Font/Poppins-Bold.ttf);
 }
+
 @font-face {
-    font-family: 'poppins regular' ;
+    font-family: 'poppins regular';
     src: url(Font/Poppins-Regular.ttf);
 }
+
 @font-face {
-    font-family: 'roboto bold' ;
+    font-family: 'roboto bold';
     src: url(Font/Roboto-Bold.ttf);
 }
+
 @font-face {
-    font-family: 'opensans bold' ;
+    font-family: 'opensans bold';
     src: url(Font/OpenSans-Bold.ttf);
 }
+
 @font-face {
-    font-family: 'roboto regular' ;
+    font-family: 'roboto regular';
     src: url(Font/Roboto-Regular.ttf);
 }
+
 /* fontes */
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 100px
 }
-.contato{
+
+.contato {
     background-color: #106eea;
 
 
 }
+
 .contato .container a {
     font: 500 30px 'opensans regular';
+    color: white;
+    margin-right: 40px;
+}
+
+.contato .container {
+    justify-content: flex-start;
+    height: 35px;
+}
+
+/* header */
+.logo .nome {
+    font: 700 40px 'poppins b   old';
+}
+
+.menu a {
+    font: 500 22px 'opensans regular';
+    color: black;
+    margin-left: 60px;
+}
+
+/* inicio */
+.inicio {
+    background-image: url(Img/Vitral.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+.inicio .container{
+    justify-content: flex-end;
+    height: 400px;
 }
