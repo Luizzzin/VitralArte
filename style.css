@@ -87,12 +87,141 @@ img {
     background-image: url(Img/Vitral.png);
     height: 400px;
     background-size: cover;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
 }
-.inicio .container{
+
+.inicio .container {
     justify-content: flex-end;
     height: 400px;
 }
-.titulo .inicio{
+
+.inicio .titulo-inicio {
+    font: 700 40px 'poppins bold';
+}
+
+.titulo {
+    font: 700 40px 'roboto bold';
+    color: #000;
+}
+
+span {
+    color: #106eea;
+
+}
+
+.texto {
+    font: 500 20px 'opensans regular';
+}
+
+.sobreNos .imagem img {
+    width: 500px;
+}
+
+.sobreNos .conteudo .texto {
+    text-align: justify;
+}
+
+.sobreNos .conteudo {
+    margin-right: 100px;
+}
+
+.header .nome {
+    font: 700 40px 'poppins bold';
+}
+
+/* infos */
+
+.infos .quadrados .quadrado img {
+    width: 100px;
+}
+
+.infos .quadrados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.quadrado {
+    background-color: #f1f6fe;
+    border: 1px solid #8ca9ce;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 20px;
+    width: 230px;
+}
+
+/* divisao */
+
+.divisao {
+    background-color: #1150a3;
+    height: 2px;
+}
+
+/* serviços */
+.servicos .container {
+    flex-direction: column;
+}
+
+.servico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos .container .conteudo .titulo {
+    font: 700 24px 'roboto bold';
+    text-align: center;
+    margin: 0 30px;
+}
+
+.servico .servico-nome {
+    border: 2px solid #8ca9ce;
+    width: 275px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.equipe .container{
+    flex-direction: row;
+}
+.equipe .conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.equipe .conteudo .pessoas{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.endereco{
+    width: 200px;
+    border: 3px solid #1150a3;
+    height: 350px;
+    text-align: center;
+    padding: 20px;
+
+}
+input{
+    height: 50px;
+    background-color: #8ca9ce;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding: 80px 20px;
+    margin-right: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
     
+
+}
+textarea{
+    background-color: gainsboro;
 }
